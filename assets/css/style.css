@@ -1,0 +1,204 @@
+:root {
+  --red:#2799D5;
+  --white: #ffffff;
+  --primary-font: "Poppins", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+h1{color:black;margin-bottom:15px; }
+.container{
+border-radius: 8px;
+margin: 0 auto;
+max-width: 450px;
+width: 100%; 
+position: relative;
+}
+.topBg{max-width: 450px;
+width: 100%;
+position: absolute; z-index:-1;
+}
+.topBg img{width:450px;}
+.center{text-align:center;color: #201C1A;}
+h1,h3{margin:0px;font-family:var(--primary-font);}
+p{margin:0px;font-family:var(--primary-font); }
+.logo {padding:40px 0px 5px 0px; float:left; width:100%}
+.bizname{width:100%; padding:10px 0px; font-family:var(--primary-font); float:left}
+.divider{width: 90%;
+text-align: center;
+background:linear-gradient(166.75deg, #F32B2B -38.38%, #D81A1A 99.71%);
+height: 1px;
+margin: 5px auto;}
+.contactDetails{padding:10px 46px; float:right;
+width: 81%;}
+.c-icon{width: 10%;
+margin-right: 15px;
+background:linear-gradient(166.75deg, #F32B2B -38.38%, #D81A1A 99.71%);
+float: left;
+text-align: center;
+height: 37px;
+border-radius: 1px;
+margin-bottom:5px;
+}
+.c-icon i{margin-top:10px; color:white;}
+.c-con{width: 80%;
+float: left; 
+height: 35px;
+text-align: ;}
+.c-con p{font-family: var(--primary-font);
+color: black;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px; margin-top:10px;}
+.c-details{padding: 5px 0px;
+float: left;
+width: 100%;}
+.socailmedia{ float:left;padding:15px 23px;margin-top: 22px;
+margin-left:60px;}
+.s-icon img{width:37px;border-radius:0px;margin-left:15px;}
+.s-icon{margin-right:15px; float:left;}
+.about{padding: 5px 0px;
+float: left;
+width: 100%;}
+.w-title{margin:0px 0px; padding:10px 0px; font-family: var(--primary-font); background:linear-gradient(166.75deg, #F32B2B -38.38%, #D81A1A 99.71%); color:#fff;border-radius:0px; width:100%; float:left;}
+.about p{font-size:15px; line-height:21px; text-align:justify; padding:10px 0px;}
+.product{padding: 5px 0px;
+float: left;
+width: 100%;}
+.pro-gallery-img {  width: 44.3%;
+  float: left;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-left: 6px;
+  margin-top: 6px;
+  height:220px;
+}
+.pro-gallery-img  img{width:100%;}
+
+.gallery{padding: 5px 0px;
+float: left;
+width: 100%;}
+.gallery-img {  width: 26.8%;
+  float: left;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-left: 6px;
+  margin-top: 6px;
+  height:120px;
+}
+.gallery-img  img{width:100%;}
+.video{padding: 5px 0px;
+float: left;
+width: 100%;}
+.video-img  {width: 85%; margin-top:10px;
+padding: 10px;
+box-shadow: 0px 0px 5px #ccc;
+float: left;
+margin-left: 23px;	}
+
+.upi{padding: 5px 0px;
+float: left;
+width: 100%;}
+
+.upi-title {  width: 67.3%;
+  float: left;
+  padding: 5px;
+ 
+  margin-left: 6px;
+  margin-top: 3px;
+}
+.upi-title a{font-family: var(--primary-font);
+font-size: 16px; text-decoration:none;
+color: #323232;
+font-weight: 600;}
+.upi-copy {  width: 24.3%;
+  float: right;
+  padding: 5px; 
+ 
+  margin-right: 6px;
+  margin-top: 3px;
+}
+.upi-title a img{width:20px; vertical-align:middle; margin-right:10px;}
+.upi-copy a{font-family: var(--secondary-font);
+font-size: 16px; text-decoration:none;
+color: #323232;
+font-weight: 600;}
+.upi-content{width: 100%;
+float: left;
+box-shadow: 1px 1px 5px #ccc;
+margin: 5px 0px;}
+
+.enquiry{padding: 5px 0px;
+float: left;
+width: 100%;}
+.enquiry form{width: 100%;
+padding: 20px 0;
+border: 1px solid #ccc;
+border-radius: 8px;
+float: left;}
+.enquiry form .inputSection{width: 90%;
+padding: 8px 5px;
+  padding-left: 5px;
+margin: 10px auto;
+outline: none;
+border-radius: 4px;
+padding-left: 28px;
+border: 1px solid #ccc;}
+.enquiry form input, .enquiry form textarea{width: 90%;
+height: 30px;
+border: none;
+color: #000;}
+.enquiry form textarea{height:70px;}
+.enquiry form .fa-comment{vertical-align:top;}
+.enquiry form #submit{cursor: pointer;
+width: 80%;
+color:#fff;
+font-size: 16px;
+font-weight: 600;
+background-color:#e72424;
+border-radius: 4px;
+padding: 10px;
+box-shadow: 0 0 8px #ccc;
+height: 40px;}
+.footer{padding: 5px 0px; background:linear-gradient(166.75deg, #F32B2B -38.38%, #D81A1A 99.71%);
+float: left;
+width: 100%;}
+.footer .footer-icon{width: 17%; border-right:1px solid #fff;
+float: left;
+background:linear-gradient(166.75deg, #F32B2B -38.38%, #D81A1A 99.71%);
+margin: 0px 5px;}
+.footer .footer-icon i{font-size:16px; color:linear-gradient(166.75deg, #F32B2B -38.38%, #D81A1A 99.71%);background:blak; height:21px; width:25px;margin-top:5px; border-radius:3px;padding-top:6px;}
+.footer .footer-icon p{font-family: var(--primary-font);
+font-weight: 600;
+font-size: 14px;
+color: #fff;}
+.footer .footer-icon p a{text-decoration:none;color:white;}
+.last-b-none{border:none !important;}
+.whatsapp-share{padding: 5px 0px;
+float: left;
+width: 100%;}
+.whtaspp-share select {
+  font-size: 10px;
+  border-radius: 0 !important;
+}
+.whtaspp-share select, .whtaspp-share button {
+  width: 20%;
+  height: 40px;
+  padding: none;}
+  
+  #pcode{
+  border: 2px solid #ddd;
+  margin-top: 0;
+  padding: 6px 10px 7px;
+  width: 25%;
+  background: #fff;
+  
+}
+.whatsapp-share #number{width: 55%;
+height: 26px;}
+.whatsapp-share button
+{
+width: 15%;
+height: 32px;
+background: green;
+color: white;
+}
