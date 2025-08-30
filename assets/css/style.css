@@ -226,6 +226,28 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
+@media (max-width: 480px) {
+  .whatsapp-share form {
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+  }
+
+  #pcode {
+    width: 100%;
+    max-width: 110px; 
+  }
+
+  #number {
+    width: 100%;
+  }
+
+  .whatsapp-share button {
+    width: 100%;
+    max-width: 70px; 
+  }
+}
 .w-title {
   background: var(--primary);
   border-radius: var(--radius);
